@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+
+body {
+font-family: sans-serif;
+overflow: hidden;
+background-color: #001d38;
+height: 100%;
+padding: 60px;
+height: 100%;
+}
+
+html {
+height: 80%;
+}
+
+
+.center { 
+align-items: center;
+display: flex;
+flex-direction: column;
+height: 100%;
+justify-content: center;
+}
+
+.wrapper {
+display: flex;
+grid-gap: 1em;
+overflow: hidden;
+width: 55em;
+}
+
+.wrapper > .inner { 
+    display: flex;
+    grid-gap: 1em;
+    transition: all 1s ease-in-out;
+    height: 300px;     
+}
+
+.card { 
+border-radius: 0.5em;
+box-shadow: 1px 1px 10px #000000a1; 
+border-radius: 5px;
+}
+.card > img {
+    border-top-right-radius: inherit;
+    border-top-left-radius: inherit;
+    display: block;
+    width: 17.5em;
+    height: 220px;
+}
+
+.card >.content {
+    
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+    padding: 1em;
+    background-color: #174978d2;
+    text-align: center;}
+
+h1, h3 {
+    margin: 0.35em 0; }
+
+    h1 {
+    color: #fff;
+    font-size: 1.25rem;
+    line-height: 1;
+    }
+
+    h3 {
+    color: #ccc;
+    font-size: 0.9rem;
+    font-weight: 300;
+    }
+
+button{
+    background-color: #9ACFDD;
+    cursor: pointer;
+    margin: 5px;
+    position: relative;
+    user-select: none;
+    border-radius: 70%;
+    width: 15px;
+    height: 15px;
+}
+button:hover{
+    background-color:bisque ;
+}
+      
